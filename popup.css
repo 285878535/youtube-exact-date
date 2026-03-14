@@ -1,0 +1,97 @@
+body {
+    width: 300px;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: #fdfdfd;
+    color: #333;
+}
+
+.container {
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+}
+
+.header img {
+    margin-right: 8px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 16px;
+    color: #1a1a1a;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group label {
+    margin: 0 0 0 6px;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.checkbox-group input {
+    cursor: pointer;
+    margin: 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #065fd4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #004ecc;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.status {
+    text-align: center;
+    font-size: 12px;
+    color: #28a745;
+    margin-top: 8px;
+    min-height: 16px;
+}
