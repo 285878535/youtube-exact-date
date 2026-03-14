@@ -14,8 +14,7 @@ This browser extension extracts and replaces YouTube's fuzzy relative upload tim
 ## 功能特性 (Features)
 
 *   **100% 覆盖 (100% Coverage)**: 同时在首页推荐、播放页、搜索列表以及短视频等场景自动探测并转换时间，精准直观。(Automatically detects and converts time across Home recommendations, Watch pages, Search lists, and Shorts scenarios intuitively).
-*   **无感自洽 (Native Integration)**: 全局静默追踪替换技术，不注入多余的繁杂样式，彻底伪装成 YouTube 官方原生功能。(Global silent tracking & replacing technology with zero bloated visual styles, acting seamlessly like YouTube's native text).
-*   **性能极客 (Performance Driven)**: 加入 Intersection Observer + 渲染防抖技术处理流式卡片的复用检测，网页丝滑无感。(Powered by Intersection Observer + rendering debounce for recycled view card detections, providing smooth performance limitlessly).
+
 
 ## 安装与使用 (Installation & Usage)
 
