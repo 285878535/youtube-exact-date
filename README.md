@@ -4,7 +4,10 @@
 > **版权 / Copyright**: Copyright (c) 2024 Justin Xing. All rights reserved.
 
 ## 简介 (Introduction)
-
+![alt text](image-2.png)
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-3.png)
 **中文**: 
 本浏览器插件用于将 YouTube 上的视频发布时间（例如“3天前”、“2年前”）原生提取并精确替换为具体的发布日期（例如“2023-10-05”）。抛弃复杂的自定义 UI，遵循原生无缝融合原则，直接改写节点文字内容。插件同时支持在“播放页详情 (Watch Page)”、“短视频模块 (Shorts)”和“首页/网格/列表视图 (Grid/List View)”工作，完全覆盖所有视频时间显示。
 
