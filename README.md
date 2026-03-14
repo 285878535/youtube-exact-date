@@ -1,4 +1,4 @@
-# YouTube Exact Date Glass UI
+# YouTube Exact Date
 
 > **作者 / Author**: Justin Xing (justinxing001@gmail.com)
 > **版权 / Copyright**: Copyright (c) 2024 Justin Xing. All rights reserved.
@@ -6,16 +6,16 @@
 ## 简介 (Introduction)
 
 **中文**: 
-本浏览器插件用于将 YouTube 上的视频发布时间（例如“3天前”、“2年前”）精确替换为具体的发布日期（例如“2023-10-05”）。该插件完美遵循“Modern Fluid Glassmorphism”美学原则，采用现代玻璃拟物风格 UI 显示确切日期，并加入了弹簧缓动 (Spring damping) 和果冻式弹跳 (Jelly Physics) 交互动画，带来平滑生动的视觉体验。插件同时支持在“播放页 (Watch Page)”和“网格/列表视图 (Grid/List View)”工作，完全覆盖所有视频时间显示。
+本浏览器插件用于将 YouTube 上的视频发布时间（例如“3天前”、“2年前”）原生提取并精确替换为具体的发布日期（例如“2023-10-05”）。抛弃复杂的自定义 UI，遵循原生无缝融合原则，直接改写节点文字内容。插件同时支持在“播放页详情 (Watch Page)”、“短视频模块 (Shorts)”和“首页/网格/列表视图 (Grid/List View)”工作，完全覆盖所有视频时间显示。
 
 **English**: 
-This browser extension replaces Youtube's fuzzy relative upload times (e.g., "3 days ago", "2 years ago") with the exact release date (e.g., "2023-10-05"). The extension perfectly adheres to the "Modern Fluid Glassmorphism" aesthetic principles, using a modern frosted liquid glass UI to display exact dates. It also incorporates Spring damping and Jelly Physics animations for interactions, creating a silky and organic visual experience. The extension works natively on both the Watch Page and Grid/List Views, comprehensively overriding all video time displays.
+This browser extension extracts and replaces YouTube's fuzzy relative upload times (e.g., "3 days ago", "2 years ago") with the exact native release date (e.g., "2023-10-05"). It abandons complex custom UIs and adheres to the principle of seamless native integration by directly rewriting the text content of the nodes. The extension works perfectly on the Watch Page, Shorts Modules, and Home/Grid/List Views, comprehensively overriding all video time displays.
 
 ## 功能特性 (Features)
 
-*   **100% 覆盖 (100% Coverage)**: 同时在播放页和视频列表提取与转换时间，精准直观。(Extracts and converts time on both watch and list pages intuitively).
-*   **玻璃拟物风格 (Fluid Glassmorphism)**: 以毛玻璃材质、优雅边缘光叠加效果替换默认黑白文本。(Replaces default BW text with frosted glass textures and elegant rim lighting layered effects).
-*   **果冻物理动效 (Jelly Physics Interaction)**: 当鼠标悬停在晶莹剔透的新增日期标签上时，会出现舒适流畅的果冻弹动物理动效。(Hovering over the crystal clear date tags triggers a satisfying and smooth jelly bouncing physical animation).
+*   **100% 覆盖 (100% Coverage)**: 同时在首页推荐、播放页、搜索列表以及短视频等场景自动探测并转换时间，精准直观。(Automatically detects and converts time across Home recommendations, Watch pages, Search lists, and Shorts scenarios intuitively).
+*   **无感自洽 (Native Integration)**: 全局静默追踪替换技术，不注入多余的繁杂样式，彻底伪装成 YouTube 官方原生功能。(Global silent tracking & replacing technology with zero bloated visual styles, acting seamlessly like YouTube's native text).
+*   **性能极客 (Performance Driven)**: 加入 Intersection Observer + 渲染防抖技术处理流式卡片的复用检测，网页丝滑无感。(Powered by Intersection Observer + rendering debounce for recycled view card detections, providing smooth performance limitlessly).
 
 ## 安装与使用 (Installation & Usage)
 

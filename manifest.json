@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Exact Date Glass UI",
-  "version": "1.0.0",
-  "description": "取代模糊的油管视频发布时间，并应用现代玻璃拟物风格 | Replace fuzzy relative times with exact dates using a Glassmorphism UI",
+  "name": "YouTube Exact Date",
+  "version": "1.0.1",
+  "description": "取代模糊的油管视频发布时间，精准还原具体时期 | Replace fuzzy relative times with exact dates seamlessly",
   "author": "Justin Xing <justinxing001@gmail.com>",
   "content_scripts": [
     {
